@@ -1,6 +1,7 @@
 #ifndef SHELL_H
 #define SHELL_H
 
-char *read_line(void);
+void display_prompt();
 void execute_command(char *command);
+
 #endif
